@@ -68,7 +68,7 @@
         border:  solid black;
     }
     .secondChildWild-item2{
-        padding-left: 30px;
+        padding-left: 20px;
         padding-right: 15px;
         grid-area: 1 / 2 / 3 / 4;
         background-color: rgba(0, 128, 255, 0.605);
