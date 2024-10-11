@@ -4,85 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./portfolio.css">
+    <link rel="shortcut icon" href="./favicon.ico">
     <title>Contact request Page</title>
 </head>
 <body>
+    <aside>
+        <a href="./index.html" class="button">Back</a>
+    </aside>
     <h2>Contact Fatima in person?  Great</h2>
     <p>Lets Fill this together!</p>
-    <div>
-        <fieldset class="container">
-            <legend>personal Information</legend>
-            <ul>
-                <li>
-                <!--    <label for="FirstName"> Your First Name</label> -->
-                    <input type="text" name="FirstName" id="FirstName" placeholder="First Name" title="input your first name" required>
-                </li>
-                <li>
-                    <input type="email" name="EmailName" id="EmailName" placeholder="Your Email Address" title="input your email address" required>
-                </li>
-                <li>
-                    <input type="tel" name="Phone" id="Phone" placeholder="Your Phone Number" title="input your phone number" required>
-                </li>
-                <li>
-                    <input type="date" name="dob" id="dob" title="fill your date of birth" placeholder="dob" required>
-                </li>
-                <li>
-                    <textarea name="address" id="address" placeholder="address" rows="5" cols="50"></textarea>
-                </li>
-                <li>
-                    <input type="file" title="Upload a selfie Picture" name="Upload your picture" id="Upload File" accept="multiple" required>
-                </li>
-            </ul>
+    <div class="firstcontainer">
+        <div>
+            <fieldset class="container">
+                <legend>personal Information</legend>
+                <ul>
+                    <li>
+                    <!--    <label for="FirstName"> Your First Name</label> -->
+                        <input type="text" name="FirstName" id="FirstName" placeholder="First Name" title="input your first name" required>
+                    </li>
+                    <li>
+                        <input type="email" name="EmailName" id="EmailName" placeholder="Your Email Address" title="input your email address" required>
+                    </li>
+                    <li>
+                        <input type="tel" name="Phone" id="Phone" placeholder="Your Phone Number" title="input your phone number" required>
+                    </li>
+                    <li>
+                        <input type="date" name="dob" id="dob" title="fill your date of birth" placeholder="dob" required>
+                    </li>
+                    <li>
+                        <textarea name="address" id="address" placeholder="address" rows="5" cols="50"></textarea>
+                    </li>
+                    <li>
+                        <input type="file" title="Upload a selfie Picture" name="Upload your picture" id="Upload File" accept="multiple" required>
+                    </li>
+                </ul>
+            </fieldset>
+        </div>
+        <fieldset class="inner-container">
+            <legend>Other Information</legend>
+            <div>
+                <p>gender</p>
+                <input type="radio" name="gender" id="Male">
+                <label for="Male">Male</label> <br>
+                <input type="radio" name="gender" id="Female">
+                <label for="Female">Female</label>
+            </div>
+            <div>
+                <label for="Stateoforigin">State of origin</label>
+                <select name="Stateoforigin" id="Stateoforigin">
+                    <optgroup label="West of Nigeria">
+                        <option value="Lg">Lagos</option>
+                        <option value="Og">Ogun</option>
+                        <option value="Os">Osun</option>
+                        <option value="Oy">Oyo</option>
+                    </optgroup>
+                    <optgroup label="East of Nigeria">
+                        <option value="Am">Anambra</option>
+                        <option value="Ab">Abia</option>
+                        <option value="En">Enugu</option>
+                        <option value="Im">Imo</option>
+                    </optgroup>
+                    <optgroup label="North of Nigeria">
+                        <option value="Ka">Kano</option>
+                        <option value="Ku">Kaduna</option>
+                        <option value="Kt">Kastina</option>
+                        <option value="Kb">Kebbi</option>
+                    </optgroup>
+                    <optgroup label="South of Nigeria">
+                        <option value="Ak">Akwa-Ibom</option>
+                        <option value="Ba">Bayelsa</option>
+                        <option value="Cr">Cross-River</option>
+                        <option value="Dl">Delta</option>
+                    </optgroup>
+                 </select>
+            </div>
         </fieldset>
+        <footer>
+            <div>
+                <button type="submit">Submit</button>
+            </div> 
+        </footer>
     </div>
-    <fieldset class="inner-container">
-        <legend>Other Information</legend>
-        <div>
-            <p>gender</p>
-            <input type="radio" name="gender" id="Male">
-            <label for="Male">Male</label> <br>
-            <input type="radio" name="gender" id="Female">
-            <label for="Female">Female</label>
-        </div>
-        <div>
-            <label for="Stateoforigin">State of origin</label>
-            <select name="Stateoforigin" id="Stateoforigin">
-                <optgroup label="West of Nigeria">
-                    <option value="Lg">Lagos</option>
-                    <option value="Og">Ogun</option>
-                    <option value="Os">Osun</option>
-                    <option value="Oy">Oyo</option>
-                </optgroup>
-                <optgroup label="East of Nigeria">
-                    <option value="Am">Anambra</option>
-                    <option value="Ab">Abia</option>
-                    <option value="En">Enugu</option>
-                    <option value="Im">Imo</option>
-                </optgroup>
-                <optgroup label="North of Nigeria">
-                    <option value="Ka">Kano</option>
-                    <option value="Ku">Kaduna</option>
-                    <option value="Kt">Kastina</option>
-                    <option value="Kb">Kebbi</option>
-                </optgroup>
-                <optgroup label="South of Nigeria">
-                    <option value="Ak">Akwa-Ibom</option>
-                    <option value="Ba">Bayelsa</option>
-                    <option value="Cr">Cross-River</option>
-                    <option value="Dl">Delta</option>
-                </optgroup>
-             </select>
-        </div>
-    </fieldset>
-    <footer>
-        <div>
-            <button type="submit">Submit</button>
-        </div> 
-    </footer>
-    </form>
          
-        
-
-    
 </body>
 </html>

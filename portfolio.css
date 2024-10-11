@@ -39,6 +39,7 @@ body{
     color: yellow;
 }
 .container{
+    /* padding-top: 150px; */
     width: 600px;
     width: 50vh;
     line-height: 2.5;
@@ -56,4 +57,6 @@ footer{
     /* width: 120px;
     height: 80px; */
 }
-
+h2{
+    padding-top: 30px;
+}
