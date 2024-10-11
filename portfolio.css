@@ -51,8 +51,9 @@ body{
     line-height: 2;
     border: solid yellow;
 }
-/* form{
-    line-height: 2;
-    
-} */
+footer{
+    padding: 30px;
+    /* width: 120px;
+    height: 80px; */
+}
 
