@@ -25,6 +25,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
+    justify-items: center;
 }
 span{
     color: yellow;
